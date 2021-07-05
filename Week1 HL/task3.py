@@ -1,0 +1,6 @@
+userName = input("Please enter your name:")
+userStarter = input("Hi " + userName + " Please enter your favourite starter.")
+userMain = input("And your favourite main course will be ....")
+userDessert = input("What dessert you like to end it with ? ")
+userDrink = input("And to wash it all off with which drink ..  ")
+print(userName + " Your favourite meal starts with " + userStarter + " on to the main course of " + userMain + " followed by " + userDessert + " with a glass of " + userDrink)
